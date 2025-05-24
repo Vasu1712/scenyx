@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "scenyx-webapp",
+  "short_name": "Welcome to Scenyx",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Spotify social for music lovers. Connect by taste, join interactive Scenes with AI voting, DM friends, AI profile insights."
+}

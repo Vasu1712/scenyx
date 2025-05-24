@@ -1,0 +1,56 @@
+scenyx/
+├── public/
+│   ├── favicon.ico
+│   ├── manifest.json
+│   └── images/
+│       └── logo.svg
+├── src/
+│   ├── components/
+│   │   ├── router-head/
+│   │   │   └── router-head.tsx
+│   │   ├── starter/
+│   │   │   ├── header/
+│   │   │      └── header.tsx
+│   │   │   ├── footer/
+│   │   │       └── footer.tsx
+│   │   │   ├── scenes/
+│   │   │       └── scene-card.tsx
+│   │   │       └── scene-list.tsx
+│   │   │   ├── chat/
+│   │   │       └── chat-card.tsx
+│   │   │       └── chats.tsx
+│   │   │   ├── profile/
+│   │   │       └── profile-header.tsx
+│   │   │       └── activity-feed.tsx
+│   │   │   ├── shared/
+│   │   │       └── buttons.tsx
+│   │   │       └── layout.tsx
+│   ├── integrations/
+│   │   ├── spotify/
+│   │   │   ├── auth.ts
+│   │   │   └── api.ts
+│   │   └── ai/
+│   │       ├── profile-analyzer.ts
+│   │       └── content-generator.ts
+│   ├── routes/
+│   │   ├── index.tsx
+│   │   ├── login/
+│   │   │   └── index.tsx
+│   │   ├── callback/
+│   │   │   └── index.tsx
+│   │   ├── profile/
+│   │   │   └── index.tsx
+│   │   ├── scenes/
+│   │   │   ├── index.tsx
+│   │   │   └── [id]/
+│   │   │       └── index.tsx
+│   │   └── chat/
+│   │       ├── index.tsx
+│   │       └── [id]/
+│   │           └── index.tsx
+│   ├── utils/
+│   │   ├── store.ts
+│   │   └── helpers.ts
+│   └── root.tsx
+├── package.json
+└── tsconfig.json
