@@ -1,13 +1,14 @@
 import { component$, useSignal } from '@builder.io/qwik';
+import { useNavigate } from '@builder.io/qwik-city';
 
 export const Explore = component$(() => {
-  const isExpanded = useSignal(true);
+  const nav = useNavigate();
   
   return (
     <div class="w-full">
       <div
         class="flex justify-between items-center mb-4 cursor-pointer"
-        onClick$={() => isExpanded.value = !isExpanded.value}
+        onClick$={() => nav('/dashboard/explore')}
       >
         <p class="text-spotifygray text-xl px-2 font-spotify font-regular">Explore</p>
         <svg

@@ -3,6 +3,7 @@ import { server$ } from '@builder.io/qwik-city';
 const CLIENT_ID = 'da345d8d7974496994ebe044d29e6b37';
 const REDIRECT_URI = 'http://127.0.0.1:5173/callback';
 const SCOPES = [
+  'streaming',
   'user-read-private',
   'user-read-email',
   'user-top-read',
@@ -10,7 +11,8 @@ const SCOPES = [
   'user-read-playback-state',
   'user-modify-playback-state',
   'playlist-read-private',
-  'playlist-read-collaborative'
+  'playlist-read-collaborative',
+  'user-read-currently-playing',
 ];
 
 export async function redirectToSpotifyAuth() {

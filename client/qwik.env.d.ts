@@ -2,3 +2,14 @@
 
 // Add global `vite/client` types. For more info, see: https://vitejs.dev/guide/features#client-types
 /// <reference types="vite/client" />
+
+declare global {
+  interface Window {
+    onSpotifyWebPlaybackSDKReady: () => void;
+    Spotify: {
+      Player: new (options: any) => any;
+    };
+  }
+}
+
+export {};

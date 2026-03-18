@@ -55,7 +55,7 @@ export default component$(() => {
       localStorage.removeItem('code_verifier');
       
       // Navigate to dashboard
-      nav('/dashboard');
+      nav('/dashboard/profile');
     } catch (error) {
       console.error('Authentication error:', error);
       nav('/login');

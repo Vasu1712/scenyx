@@ -93,7 +93,7 @@ export const TopTracks = component$<TopTracksProps>(({ accessToken }) => {
       {!isLoading.value && !error.value && (
         <div class="space-y-3">
           {tracks.value.map((track, index) => (
-            <div key={track.id} class="flex items-center justify-between hover:bg-spotifydarkgray p-2 rounded-md transition">
+            <div key={track.id} class="flex items-center justify-between hover:bg-footergray p-2 rounded-md transition">
               <div class="flex items-center">
                 {/* Track number */}
                 <span class="text-spotifylightgray w-8 text-center">{index + 1}</span>

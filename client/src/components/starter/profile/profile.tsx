@@ -25,7 +25,7 @@ export const Profile = component$<ProfileProps>(({
   followerCount = 18,
   chatCount = 20,
   playlistCount = 7,
-  aiDescription = "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful."
+  aiDescription = "Vasu's musical journey is a rich tapestry woven from diverse threads. You'll often find them immersed in the emotive melodies of Arijit Singh, Ed Sheeran, KK, and Atif Aslam, valuing powerful vocals and heartfelt lyricism. But their playlist quickly shifts to the energetic beats of Karan Aujla and the soulful depth of Satinder Sartaaj. Vasu's ears are also tuned to the raw, lyrical prowess of Indian hip-hop, featuring Kr$naa and Seedhe Maut. This eclectic mix showcases an open-minded listener who appreciates both global mainstream appeal and deeply rooted, culturally rich sounds."
 }) => {
   const initial = profile.display_name ? profile.display_name[0].toUpperCase() : 'A';
   

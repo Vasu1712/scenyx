@@ -32,9 +32,9 @@ export const Header = component$(() => {
 
   return (
     <header class="flex justify-between items-center px-4 pt-4 pb-2">
-      <div class="flex items-center">
+      <Link href="/dashboard/profile" class="flex items-center">
         <ScenyxNameHeader class="h-8" />
-      </div>
+      </Link>
       
       {/* User profile */}
       <div class="relative">
